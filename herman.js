@@ -52,7 +52,7 @@ owner = setting.OwnerNumber//ubah di file setting.json
 botname = setting.BotName//ubah di file setting.json
 ownername = setting.OwnerName//ubah di file setting.json
 fake = setting.Fake
-pe = 'https://instagram.com/cal_me_herman?utm_medium=copy_'
+pe = 'https://nekopoi.com'
 //࿇ ══━━━━━━━━━━━━━━━━━━━━✥SUBSCRIBE HERMAN CHANEL✥━━━━━━━━━━━━━━━━━━━━━━━━══ ࿇
 AlphaBot = 'Alphabot'
 Leyscoders = 'IkyOgiwara'
@@ -312,7 +312,7 @@ const isUrl = (url) => {
                             itemCount : 99999999,
                             status: 1,
                             surface : 1,
-                            message: `囧 𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙`, 
+                            message: `Senpai`, 
                             orderTitle: `${botname}`,
                             thumbnail: fakeherman, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -439,17 +439,12 @@ fakeyt(`Menampilkan Menu..`)
 teks = `hai Saya ${botname} 👋
 
 ┌─❏ *Info Bot* 
-│🔮 *Nama Bot* : ${botname}
-│🔮 *Owner* : ${ownername}
-│🔮 *Batrei* : Tidak Terdeteksi
-│🔮 *Version* : 1.0.0
+│✨ *Nama Bot* : ${botname}
+│✨ *Owner* : ${ownername}
+│✨ *Power* : ?
+│✨ *Version* : 0
 └─────────────⎘
-
-
-Dj Ghani Ghani - Viral Tiktok mp3
-
-03:42 ━━━━━━●───── 05:20
-⇆ㅤ    ◁ㅤ     ❚❚     ㅤ▷ ㅤ  ㅤ↻﻿`
+﻿`
 img = fs.readFileSync('./image/herman.jpg')
 trans = `Dilarang Spam Bot!! Jeda Minimal 5detik Spam/Call Auto Baned!.Mohon Hargai Creator Bot`
 but = [
@@ -946,7 +941,7 @@ break
 //══════════[ APIKEY ALPHA ]════════════════════════════//
 case 'blackpink':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/blackpink?text=${query}&apikey=${AlphaBot}`)
@@ -954,7 +949,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/blackpink?t
 break
 case 'pipe':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/water_pipe?text=${query}&apikey=${AlphaBot}`)
@@ -962,7 +957,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/water_pipe?
 break
 case 'heloween':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween?text=${query}&apikey=${AlphaBot}`)
@@ -970,7 +965,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween?t
 break
 case 'heloween2':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween2?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -978,7 +973,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween2?
 break
 case 'horor':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/horror?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -986,7 +981,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/horror?text
 break
 case 'nulis':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sketch?text=${query}&apikey=${AlphaBot}`)
@@ -994,7 +989,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sketch?text
 break
 case 'sirkuit':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sircuit?text=${query}&apikey=${AlphaBot}`)
@@ -1002,7 +997,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sircuit?tex
 break
 case 'discovery':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/discovery?text=${query}&apikey=${AlphaBot}`)
@@ -1010,7 +1005,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/discovery?t
 break
 case 'fiction':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/fiction?text=${query}&apikey=${AlphaBot}`)
@@ -1018,7 +1013,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/fiction?tex
 break
 case '8bit':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/game8bit?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1026,7 +1021,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/game8bit?te
 break
 case 'demon':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/demon?text=${query}&apikey=${AlphaBot}`)
@@ -1034,7 +1029,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/demon?text=
 break
 case 'transformer':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/transformer?text=${query}&apikey=${AlphaBot}`)
@@ -1042,7 +1037,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/transformer
 break
 case 'berry':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/berry?text=${query}&apikey=${AlphaBot}`)
@@ -1050,7 +1045,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/berry?text=
 break
 case 'leyered':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/layered?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1058,7 +1053,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/layered?tex
 break
 case 'thunder':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/thunder?text=${query}&apikey=${AlphaBot}`)
@@ -1066,7 +1061,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/thunder?tex
 break
 case 'magma':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/magma?text=${query}&apikey=${AlphaBot}`)
@@ -1074,7 +1069,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/magma?text=
 break
 case 'stone':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/3dstone?text=${query}&apikey=${AlphaBot}`)
@@ -1082,7 +1077,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/3dstone?tex
 break
 case 'neon3':
  
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon?text=${query}&apikey=${AlphaBot}`)
@@ -1090,7 +1085,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon?text=$
 break
 case 'glitch':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch?text=${query}&apikey=${AlphaBot}`)
@@ -1098,7 +1093,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch?text
 break
 case 'glitch2':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch2?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1106,7 +1101,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch2?tex
 break
 case 'herrypoter':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/harry_potter?text=${query}&apikey=${AlphaBot}`)
@@ -1114,7 +1109,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/harry_potte
 break
 case 'embosed':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/embossed?text=${query}&apikey=${AlphaBot}`)
@@ -1122,7 +1117,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/embossed?te
 break
 case 'broken':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/broken?text=${query}&apikey=${AlphaBot}`)
@@ -1130,7 +1125,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/broken?text
 break
 case 'nulis2':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/papercut?text=${query}&apikey=${AlphaBot}`)
@@ -1138,7 +1133,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/papercut?te
 break
 case 'gradient':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/gradient?text=${query}&apikey=${AlphaBot}`)
@@ -1146,7 +1141,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/gradient?te
 break
 case 'glossy':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glossy?text=${query}&apikey=${AlphaBot}`)
@@ -1154,7 +1149,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glossy?text
 break
 case 'watercolor':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/watercolor?text=${query}&apikey=${AlphaBot}`)
@@ -1162,7 +1157,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/watercolor?
 break
 case 'multicolor':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/multicolor?text=${query}&apikey=${AlphaBot}`)
@@ -1170,7 +1165,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/multicolor?
 break
 case 'neondevil':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon_devil?text=${query}&apikey=${AlphaBot}`)
@@ -1178,7 +1173,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon_devil?
 break
 case 'underwater':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/underwater?text=${query}&apikey=${AlphaBot}`)
@@ -1186,7 +1181,7 @@ bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/underwater?
 break
 case 'bear':
 
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Herman Chanel`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Senpai`)
 fakeyt(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/bear?text=${query}&apikey=${AlphaBot}`)
@@ -1533,7 +1528,7 @@ case 'bc':
 			"footerText": `${botname}`,
 			"buttons": [
 			{"buttonId": `${prefix}y`,
-			"buttonText": {"displayText": "Okeh Bangg"
+			"buttonText": {"displayText": "Okeh"
 			},"type": "RESPONSE"}
 			], "headerType": 'LOCATION',
 			locationMessage: { degreesLatitude: '',
@@ -1864,7 +1859,7 @@ break
                 case 'horrorblood':
                 case 'thunder':
                 fakeyt(mess.wait)
-                    if (args.length == 0) return reply(`Example: ${prefix + command} Herman Chanel`)
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Senpai`)
                     ini_txt = args.join(" ")
                     ini_buffer = await getBuffer(`http://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}&text=${ini_txt}`)
                     herman.sendMessage(from, ini_buffer, image, { quoted: mek})
